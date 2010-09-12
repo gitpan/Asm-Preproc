@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Asm-Preproc
-version:            0.01
+version:            0.02
 abstract:           Preprocessor to be called from an assembler
 author:
     - Paulo Custodio <pscust@cpan.org>
@@ -11,8 +11,10 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    File::Spec:  0
-    Test::More:  0
+    File::Find:   0
+    File::Slurp:  9999.13
+    File::Spec:   0
+    Test::More:   0
 no_index:
     directory:
         - t
