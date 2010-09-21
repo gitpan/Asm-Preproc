@@ -1,4 +1,4 @@
-# $Id: Stream.pm,v 1.2 2010/09/12 20:19:26 Paulo Exp $
+# $Id: Stream.pm,v 1.4 2010/09/21 19:39:50 Paulo Exp $
 
 package Asm::Preproc::Stream;
 
@@ -15,7 +15,7 @@ Asm::Preproc::Stream - Object to encapsulate an iterator that is able to unget
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 #------------------------------------------------------------------------------
 
@@ -63,7 +63,9 @@ Returns undef if the stream is empty.
 
 #------------------------------------------------------------------------------
 # attributes
-use constant { HEAD => 0, QUEUE => 1 };
+# Perl 5.6 can only declare one constant at a time
+use constant HEAD 	=> 0;
+use constant QUEUE 	=> 1;
 
 sub head        	{ $_[0][HEAD] }			# get head element
 

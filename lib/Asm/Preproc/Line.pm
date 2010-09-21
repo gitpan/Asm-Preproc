@@ -1,4 +1,4 @@
-# $Id: Line.pm,v 1.2 2010/09/12 20:19:26 Paulo Exp $
+# $Id: Line.pm,v 1.4 2010/09/21 19:39:50 Paulo Exp $
 
 package Asm::Preproc::Line;
 
@@ -15,7 +15,7 @@ Asm::Preproc::Line - One line of text retrieved from the input
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 #------------------------------------------------------------------------------
 
@@ -66,7 +66,10 @@ Creates an identical copy as a new object.
 =cut
 
 #------------------------------------------------------------------------------
-use constant { TEXT => 0, FILE => 1, LINE_NR => 2 };
+# Perl 5.6 can only declare one constant at a time
+use constant TEXT 		=> 0;
+use constant FILE 		=> 1;
+use constant LINE_NR	=> 2;
 
 sub new { 
 	#my($class, $text, $file, $line_nr) = @_;
