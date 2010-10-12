@@ -1,6 +1,6 @@
 #!perl
 
-# $Id: Lexer.t,v 1.1 2010/09/30 23:00:49 Paulo Exp $
+# $Id: Lexer.t,v 1.2 2010/10/12 21:18:13 Paulo Exp $
 
 use strict;
 use warnings;
@@ -198,7 +198,7 @@ eval {$lex->get};
 is $@, "error: unbalanced token at: /*\n", "unbalanced token";
 
 
-done_testing;
+done_testing();
 
 #------------------------------------------------------------------------------
 # TEST

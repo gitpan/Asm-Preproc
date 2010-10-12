@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Asm-Preproc
-version:            0.04
+version:            0.05
 abstract:           Preprocessor to be called from an assembler
 author:
     - Paulo Custodio <pscust@cpan.org>
