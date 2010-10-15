@@ -33,5 +33,4 @@ t/Stream.t
 t/Token-error.t
 t/Token-new.t
 t/utils.pl
-VERSION
 META.yml                                 Module meta-data (added by MakeMaker)
