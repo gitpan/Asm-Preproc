@@ -1,4 +1,4 @@
-# $Id: Lexer.pm,v 1.3 2010/10/15 15:55:26 Paulo Exp $
+# $Id: Lexer.pm,v 1.4 2013/07/16 18:01:22 Paulo Exp $
 
 package Asm::Preproc::Lexer;
 
@@ -22,7 +22,7 @@ use Asm::Preproc::Stream;
 use Asm::Preproc::Line;
 use Asm::Preproc::Token;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 #------------------------------------------------------------------------------
 

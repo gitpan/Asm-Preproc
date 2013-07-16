@@ -1,29 +1,30 @@
---- #YAML:1.0
-name:               Asm-Preproc
-version:            0.06
-abstract:           Preprocessor to be called from an assembler
+---
+abstract: 'Preprocessor to be called from an assembler'
 author:
-    - Paulo Custodio <pscust@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Paulo Custodio <pscust@cpan.org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Carp:                 0
-    Class::XSAccessor::Array:  1.08
-    Data::Dump:           1.17
-    File::Find:           0
-    File::Slurp:          9999.13
-    File::Spec:           0
-    Test::More:           0.96
-    Text::Template:       1.45
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Asm-Preproc
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: 0
+  Class::XSAccessor::Array: 1.08
+  Data::Dump: 1.17
+  File::Find: 0
+  File::Slurp: 9999.13
+  File::Spec: 0
+  Iterator::Simple::Lookahead: 0.01
+  Test::More: 0.96
+  Text::Template: 1.45
+version: 0.07
