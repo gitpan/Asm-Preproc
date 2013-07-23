@@ -1,5 +1,7 @@
 #!perl
 
+# $Id: Preproc-stream.t,v 1.3 2013/07/23 11:27:40 Paulo Exp $
+
 use strict;
 use warnings;
 

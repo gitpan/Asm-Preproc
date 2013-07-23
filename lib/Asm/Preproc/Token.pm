@@ -1,4 +1,4 @@
-# $Id: Token.pm,v 1.4 2013/07/16 18:01:22 Paulo Exp $
+# $Id: Token.pm,v 1.5 2013/07/23 11:27:40 Paulo Exp $
 
 package Asm::Preproc::Token;
 
@@ -15,7 +15,7 @@ Asm::Preproc::Token - One token retrieved from the input
 use strict;
 use warnings;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 use Data::Dump 'dump';
 use Asm::Preproc::Line;

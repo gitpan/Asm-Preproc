@@ -1,3 +1,7 @@
+#!perl
+
+# $Id: pod-coverage.t,v 1.2 2013/07/23 11:27:40 Paulo Exp $
+
 use strict;
 use warnings;
 use Test::More;
